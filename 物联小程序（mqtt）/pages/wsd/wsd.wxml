@@ -1,0 +1,22 @@
+<view class="button-sp-are">
+<view class="container">
+	<view class="weui-panel__bd">
+				<a class="weui-media-box weui-media-box_appmsg">
+	<view class="weui-media-box__hd">
+ <image class="weui-media-box__thumb" src="../pic/wendu.png" alt></image></view> </a></view> 
+<view>
+     <text>温度:{{value}}℃</text>
+<progress percent="{{value}}"  border-radius="50" stroke-width="15" active="true"></progress>
+</view> 
+	<view class="weui-panel__bd">
+				<a class="weui-media-box weui-media-box_appmsg">
+	<view class="weui-media-box__hd">
+ <image class="weui-media-box__thumb" src="../pic/shidu.png" alt></image></view> </a></view> 
+<view>
+     <text>湿度:{{shidu}}%</text>
+    <progress percent="{{shidu}}"  border-radius="50" stroke-width="15" active="true"></progress>
+</view>
+</view>
+</view>
+<button class="weui-btn1" type="primary" size="mini"  bindtap="onClickOpen">开启设备</button>
+<button class="weui-btn" type="warn" size="mini"  bindtap="onClickOff">关闭设备</button>

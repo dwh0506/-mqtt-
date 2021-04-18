@@ -1,0 +1,13 @@
+<view class="button-sp-are">
+<view class="container">
+ <view>
+    <image src="{{valuePic}}" class='imgLight' ></image>
+  </view>
+</view>
+<button class="weui-btn1" type="primary" size="mini"  bindtap="onClickOpen">开灯</button>
+<button class="weui-btn" type="warn" size="mini"  bindtap="onClickOff">关灯</button>
+
+</view>
+<view class="button_1">
+   <button class="equipment"  size="mini" bindtap='onClick_SubOne'>查看设备状态</button>
+      <button class="equipment1"  size="mini" bindtap='onClick_weqther'>开启天气模式</button></view>

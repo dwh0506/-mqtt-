@@ -1,0 +1,58 @@
+<view class="page" data-weui-theme="{{theme}}">
+	<view class="page__hd">
+		<view class="page__title">dwh物联设备</view>
+		<view class="page__desc">主页面版</view>
+    
+	</view>
+	<view class="page__bd">
+		<view class="weui-panel weui-panel_access">
+			<view class="weui-panel__hd">智能设备</view>
+			<view class="weui-panel__bd">
+				<a class="weui-media-box weui-media-box_appmsg">
+					<view class="weui-media-box__hd">
+						<image class="weui-media-box__thumb" src="{{valuePic}}" alt></image>
+					</view>
+					<view class="weui-media-box__bd" bindtap="dwh">
+						<h4 class="weui-media-box__title">灯光控制器</h4>
+						<view class="weui-media-box__desc">自主控住灯光的亮灭，以及查看灯光状态</view>
+					</view>
+				</a>
+				<a class="weui-media-box weui-media-box_appmsg">
+					<view class="weui-media-box__hd">
+						<image class="weui-media-box__thumb" src="{{valuePic1}}" alt></image>
+					</view>
+					<view class="weui-media-box__bd" bindtap="dwh1">
+						<h4 class="weui-media-box__title" >温湿度传感器</h4>
+						<view class="weui-media-box__desc">实时查看室内温湿度</view>
+					</view>
+          
+				</a>
+			</view>
+      	<a class="weui-media-box weui-media-box_appmsg">
+					<view class="weui-media-box__hd">
+						<image class="weui-media-box__thumb" src="{{valuePic2}}" alt></image>
+					</view>
+					<view class="weui-media-box__bd" bindtap="flame">
+						<h4 class="weui-media-box__title" >火焰、气体传感器</h4>
+						<view class="weui-media-box__desc">实时查看室内是否发生火灾以及可燃气体泄露</view>
+					</view>
+          
+				</a>
+        	<a class="weui-media-box weui-media-box_appmsg">
+					<view class="weui-media-box__hd">
+						<image class="weui-media-box__thumb" src="{{valuePic3}}" alt></image>
+					</view>
+					<view class="weui-media-box__bd" bindtap="people">
+						<h4 class="weui-media-box__title" >人体传感器</h4>
+						<view class="weui-media-box__desc">查看是否有人入侵</view>
+					</view>
+          
+				</a>
+			
+			</view>
+
+	</view>
+       <view class="container">
+
+</view>
+</view>

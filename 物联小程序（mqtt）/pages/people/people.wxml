@@ -1,0 +1,15 @@
+<view class="button-sp-are">
+<view class="container">
+	<view class="weui-panel__bd">
+				<a class="weui-media-box weui-media-box_appmsg">
+	<view class="weui-media-box__hd">
+ <image class="weui-media-box__thumb" src="{{change}}" alt></image></view> </a></view> 
+<view>	  
+<text>{{value}}</text>   
+</view> 
+</view>
+    <view wx:if="{{orderstate==true}}">
+       <button class="weui" type="primary" size="mini" bindtap='gooutUrl'>查看摄像头</button>
+<button class="weui" type="warn" size="mini" bindtap='bo'>报警电话</button></view>
+
+</view>
